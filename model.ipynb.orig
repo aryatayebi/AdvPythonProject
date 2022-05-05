@@ -2,7 +2,11 @@
  "cells": [
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 24,
+=======
+   "execution_count": 1,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
    "metadata": {},
    "outputs": [],
    "source": [
@@ -16,17 +20,29 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 52,
    "metadata": {},
    "outputs": [],
    "source": [
     "df = pd.read_csv('finalNbaData.csv')\n",
+=======
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv('allNbaData.csv')\n",
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
     "ss = pd.read_csv('sentiment_results.csv')"
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 53,
+=======
+   "execution_count": 3,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
    "metadata": {},
    "outputs": [
     {
@@ -219,7 +235,11 @@
        "8    46.012270                    395  "
       ]
      },
+<<<<<<< HEAD
      "execution_count": 53,
+=======
+     "execution_count": 3,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -230,7 +250,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 54,
+=======
+   "execution_count": 4,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
    "metadata": {},
    "outputs": [],
    "source": [
@@ -243,7 +267,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 55,
+=======
+   "execution_count": 5,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
    "metadata": {},
    "outputs": [
     {
@@ -380,6 +408,7 @@
        "      <td>...</td>\n",
        "    </tr>\n",
        "    <tr>\n",
+<<<<<<< HEAD
        "      <th>201</th>\n",
        "      <td>TORPHI4232022</td>\n",
        "      <td>Toronto Raptors</td>\n",
@@ -391,11 +420,25 @@
        "      <td>2.5</td>\n",
        "      <td>100</td>\n",
        "      <td>212.5</td>\n",
+=======
+       "      <th>161</th>\n",
+       "      <td>MIAATL4172022</td>\n",
+       "      <td>Miami Heat</td>\n",
+       "      <td>Atlanta Hawks</td>\n",
+       "      <td>240</td>\n",
+       "      <td>7.0</td>\n",
+       "      <td>100</td>\n",
+       "      <td>-240</td>\n",
+       "      <td>-7.0</td>\n",
+       "      <td>100</td>\n",
+       "      <td>219.5</td>\n",
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
        "      <td>100</td>\n",
        "      <td>100</td>\n",
        "      <td>1</td>\n",
        "    </tr>\n",
        "    <tr>\n",
+<<<<<<< HEAD
        "      <th>202</th>\n",
        "      <td>TORPHI4282022</td>\n",
        "      <td>Toronto Raptors</td>\n",
@@ -439,11 +482,57 @@
        "      <td>-5.5</td>\n",
        "      <td>100</td>\n",
        "      <td>214.0</td>\n",
+=======
+       "      <th>162</th>\n",
+       "      <td>MILCHI4172022</td>\n",
+       "      <td>Milwaukee Bucks</td>\n",
+       "      <td>Chicago Bulls</td>\n",
+       "      <td>450</td>\n",
+       "      <td>10.5</td>\n",
+       "      <td>100</td>\n",
+       "      <td>-450</td>\n",
+       "      <td>-10.5</td>\n",
+       "      <td>100</td>\n",
+       "      <td>230.0</td>\n",
        "      <td>100</td>\n",
        "      <td>100</td>\n",
        "      <td>1</td>\n",
        "    </tr>\n",
        "    <tr>\n",
+       "      <th>163</th>\n",
+       "      <td>PHITOR4162022</td>\n",
+       "      <td>Philadelphia 76ers</td>\n",
+       "      <td>Toronto Raptors</td>\n",
+       "      <td>170</td>\n",
+       "      <td>4.5</td>\n",
+       "      <td>100</td>\n",
+       "      <td>-170</td>\n",
+       "      <td>-4.5</td>\n",
+       "      <td>100</td>\n",
+       "      <td>216.0</td>\n",
+       "      <td>100</td>\n",
+       "      <td>100</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>164</th>\n",
+       "      <td>PHITOR4182022</td>\n",
+       "      <td>Philadelphia 76ers</td>\n",
+       "      <td>Toronto Raptors</td>\n",
+       "      <td>245</td>\n",
+       "      <td>7.0</td>\n",
+       "      <td>100</td>\n",
+       "      <td>-245</td>\n",
+       "      <td>-7.0</td>\n",
+       "      <td>100</td>\n",
+       "      <td>218.0</td>\n",
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
+       "      <td>100</td>\n",
+       "      <td>100</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+<<<<<<< HEAD
        "      <th>205</th>\n",
        "      <td>UTADAL4282022</td>\n",
        "      <td>Utah Jazz</td>\n",
@@ -477,6 +566,41 @@
        "203  UTADAL4212022        Utah Jazz       Dallas Mavericks       315   \n",
        "204  UTADAL4232022        Utah Jazz       Dallas Mavericks       200   \n",
        "205  UTADAL4282022        Utah Jazz       Dallas Mavericks      -105   \n",
+=======
+       "      <th>165</th>\n",
+       "      <td>PHONO4172022</td>\n",
+       "      <td>Phoenix Suns</td>\n",
+       "      <td>New Orleans Pelicans</td>\n",
+       "      <td>445</td>\n",
+       "      <td>10.5</td>\n",
+       "      <td>100</td>\n",
+       "      <td>-445</td>\n",
+       "      <td>-10.5</td>\n",
+       "      <td>100</td>\n",
+       "      <td>224.0</td>\n",
+       "      <td>100</td>\n",
+       "      <td>100</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>166 rows × 13 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "            gameID            homeTeam               awayTeam  awayOdds  \\\n",
+       "0     ATLGS3252022       Atlanta Hawks  Golden State Warriors       125   \n",
+       "1    ATLIND3132022       Atlanta Hawks         Indiana Pacers       590   \n",
+       "2    ATLLAC3112022       Atlanta Hawks   Los Angeles Clippers       250   \n",
+       "3    ATLMEM3182022       Atlanta Hawks      Memphis Grizzlies      -185   \n",
+       "4     ATLNO3202022       Atlanta Hawks   New Orleans Pelicans       145   \n",
+       "..             ...                 ...                    ...       ...   \n",
+       "161  MIAATL4172022          Miami Heat          Atlanta Hawks       240   \n",
+       "162  MILCHI4172022     Milwaukee Bucks          Chicago Bulls       450   \n",
+       "163  PHITOR4162022  Philadelphia 76ers        Toronto Raptors       170   \n",
+       "164  PHITOR4182022  Philadelphia 76ers        Toronto Raptors       245   \n",
+       "165   PHONO4172022        Phoenix Suns   New Orleans Pelicans       445   \n",
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
        "\n",
        "     awaySpread  awaySpreadOdds  homeOdds  homeSpread  homeSpreadOdds   over  \\\n",
        "0           2.5             100      -125        -2.5             100  221.5   \n",
@@ -485,11 +609,19 @@
        "3          -5.5             100       185         5.5             100  237.5   \n",
        "4           3.5             100      -145        -3.5             100  233.0   \n",
        "..          ...             ...       ...         ...             ...    ...   \n",
+<<<<<<< HEAD
        "201        -2.5             100       130         2.5             100  212.5   \n",
        "202        -1.0             100       105         1.0             100  209.5   \n",
        "203         8.5             100      -315        -8.5             100  208.0   \n",
        "204         5.5             100      -200        -5.5             100  214.0   \n",
        "205        -1.0             100       105         1.0             100  210.5   \n",
+=======
+       "161         7.0             100      -240        -7.0             100  219.5   \n",
+       "162        10.5             100      -450       -10.5             100  230.0   \n",
+       "163         4.5             100      -170        -4.5             100  216.0   \n",
+       "164         7.0             100      -245        -7.0             100  218.0   \n",
+       "165        10.5             100      -445       -10.5             100  224.0   \n",
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
        "\n",
        "     overOdds  underOdds  y  \n",
        "0         100        100  1  \n",
@@ -498,6 +630,7 @@
        "3         100        100  1  \n",
        "4         100        100  0  \n",
        "..        ...        ... ..  \n",
+<<<<<<< HEAD
        "201       100        100  1  \n",
        "202       100        100  0  \n",
        "203       100        100  0  \n",
@@ -508,6 +641,18 @@
       ]
      },
      "execution_count": 55,
+=======
+       "161       100        100  1  \n",
+       "162       100        100  1  \n",
+       "163       100        100  1  \n",
+       "164       100        100  1  \n",
+       "165       100        100  1  \n",
+       "\n",
+       "[166 rows x 13 columns]"
+      ]
+     },
+     "execution_count": 5,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -518,20 +663,45 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 56,
+=======
+   "execution_count": 6,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
    "metadata": {},
    "outputs": [],
    "source": [
     "# Merge sentiment scores with existing dataframe for more features\n",
     "\n",
+<<<<<<< HEAD
     "df = pd.merge(df, ss, on=['gameID', 'homeTeam', 'awayTeam'], how='left')\n",
     "df = df.drop('total_tweets_analyzed', 1)\n",
     "df = df.fillna(0)"
+=======
+    "# df = pd.merge(df, ss, on=['gameID', 'homeTeam', 'awayTeam'])"
    ]
   },
   {
    "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def oddsConverter(odds):\n",
+    "    if odds<0:\n",
+    "        return 1 - (100 / odds);\n",
+    "    else:\n",
+    "        return 1 + (odds / 100);"
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
+   ]
+  },
+  {
+   "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 57,
+=======
+   "execution_count": 8,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
    "metadata": {},
    "outputs": [],
    "source": [
@@ -543,11 +713,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 73,
+<<<<<<< HEAD
+   "execution_count": 61,
    "metadata": {},
    "outputs": [],
    "source": [
     "X = df.iloc[:, 3:].drop('y', 1)\n",
+=======
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "X = df.iloc[:, 3:-1]\n",
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
     "y = df.y\n",
     "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n",
     "model = LogisticRegression()"
@@ -555,15 +733,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 74,
+<<<<<<< HEAD
+   "execution_count": 62,
+=======
+   "execution_count": 22,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
+<<<<<<< HEAD
       "CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs\n",
-      "Wall time: 5.96 µs\n"
+      "Wall time: 6.91 µs\n"
      ]
     },
     {
@@ -578,6 +761,10 @@
       "Please also refer to the documentation for alternative solver options:\n",
       "    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression\n",
       "  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)\n"
+=======
+      "CPU times: user 2 µs, sys: 1 µs, total: 3 µs\n",
+      "Wall time: 5.72 µs\n"
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
      ]
     },
     {
@@ -586,7 +773,11 @@
        "LogisticRegression()"
       ]
      },
-     "execution_count": 74,
+<<<<<<< HEAD
+     "execution_count": 62,
+=======
+     "execution_count": 22,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -598,7 +789,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 75,
+<<<<<<< HEAD
+   "execution_count": 63,
    "metadata": {},
    "outputs": [
     {
@@ -618,10 +810,22 @@
     {
      "data": {
       "text/plain": [
-       "0.6904761904761905"
+       "0.7142857142857143"
       ]
      },
-     "execution_count": 75,
+     "execution_count": 63,
+=======
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.6764705882352942"
+      ]
+     },
+     "execution_count": 23,
+>>>>>>> 8ba6425e01c189720d1430b0c9c73bf9435c1436
      "metadata": {},
      "output_type": "execute_result"
     }
