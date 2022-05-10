@@ -1,5 +1,12 @@
 # AdvPythonProject
 
+## To Reproduce:
+Run Master_Notebook.ipynb
+
+(oddsResultsMerge.ipynb already ran to create finalNbaData.csv) 
+
+## Other Notes:
+
 nbaData.csv is merged csvs from other two files.
 
 id: HomeTeamAbbreviation+AwayTeamAbbreviation+Month+Day+Year
